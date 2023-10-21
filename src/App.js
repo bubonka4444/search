@@ -63,7 +63,7 @@ function App() {
 
   return (
     <>
-      <input  className="searchBar" type="text"  placeholder="Поиск..."
+      <input  className="searchBar" type="search"  placeholder="Поиск..."
       onChange={() => searchStarted ? setSearchStarted(searchStarted) : setSearchStarted(!searchStarted)}
       onBlur={() => setSearchStarted(!searchStarted)}
       value={userRequest}

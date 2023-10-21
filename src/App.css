@@ -1,7 +1,7 @@
 /* полоса прокрутки (скроллбар) */
 ::-webkit-scrollbar {
-  width: 7px; /* ширина для вертикального скролла */
-  height: 8px; /* высота для горизонтального скролла */
+  width: 7px; 
+  height: 8px; 
   background-color: rgb(86, 86, 86);
 }
 
@@ -17,6 +17,7 @@
   background-color: #253861;
   cursor: pointer;
 }
+
 
 *{
   padding: 0;
